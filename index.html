@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>formulaires</title>
+
+
+</head>
+<h1>les formulaires</h1>
+<body>
+
+<form action="" method="post">
+    <fieldset>
+        <legend>formulaire</legend>
+        <div>
+            <label for="password">mots de passe utlisateur</label>
+            <input type="password" id="password" name="user_password">
+        </div>
+        <div>
+            <label for="date">date d'anniversaire de l'utilisateur</label>
+            <input type="date" id="date" name="birth_user">
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <div>
+
+            <label for="couleur préférè">couleur favorite</label>
+            <input type="color" id="couleur préférè" name="user_color">
+        </div>
+        <div>
+            <label for="lettres">lettre préférè</label>
+            <select id="lettres" name="use_letters" size="4" multiple>
+
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+                <option value="G">G</option>
+                <option value="H">H</option>
+                <option value="I">I</option>
+                <option value="J">J</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">votre message</label>
+            <textarea id="message" name="user_message"></textarea>
+
+        </div>
+        <div>
+            <label for="homme"></label>
+            <input type="radio" id="homme" name="homme" checked> homme
+            <label for="femme"></label>
+            <input type="radio" id="femme" name="femme" checked> femme
+            <label for="non binaires"></label>
+            <input type="radio" id="non binaires" name="non binaire" checked> non binaires
+
+        </div>
+        <div>
+            <label for="1">1</label>
+            <input type="checkbox" name="1" id="1" value="nombre" checked>
+            <label for="2">2</label>
+            <input type="checkbox" name="2" id="2" value="nombre" checked>
+            <label for="3">3</label>
+            <input type="checkbox" name="3" id="3" value="nombre" checked>
+
+        </div>
+    </fieldset>
+    <div>
+        <button type="submit" name="use_submit">envoyer</button>
+    </div>
+
+
+</form>
+
+</body>
+</html>
